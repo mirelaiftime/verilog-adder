@@ -3,6 +3,7 @@ name: Verilog Simulation
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   simulate:
